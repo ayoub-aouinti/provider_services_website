@@ -1,5 +1,27 @@
-import { motion } from 'framer-motion';
+import { motion, useMotionValue, useTransform, animate, useInView } from 'framer-motion';
 import { Shield, Cpu, Target } from 'lucide-react';
+import { useEffect, useRef } from 'react';
+
+const Counter = ({ value, duration = 2 }: { value: string, duration?: number }) => {
+  const count = useMotionValue(0);
+  const rounded = useTransform(count, (latest) => Math.round(latest));
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+  const targetValue = parseInt(value);
+
+  useEffect(() => {
+    if (isInView) {
+      animate(count, targetValue, { duration, ease: "easeOut" });
+    }
+  }, [isInView, targetValue, count, duration]);
+
+  return (
+    <motion.h3 ref={ref}>
+      <motion.span>{rounded}</motion.span>
+      {value.includes('+') ? '+' : ''}
+    </motion.h3>
+  );
+};
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 40 },
@@ -42,7 +64,7 @@ const About = () => (
               whileHover={{ y: -8 }}
               className="stat-card glass-glow"
             >
-              <h3>{stat.value}</h3>
+              <Counter value={stat.value} />
               <p>{stat.label}</p>
             </motion.div>
           ))}
