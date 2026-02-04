@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "about": "Über mich",
+    "experience": "Erfahrung",
+    "certifications": "Zertifizierungen",
+    "contact": "Kontakt",
+    "connect": "Verbinden"
+  },
+  "hero": {
+    "badge": "F&E-Programmmanager | Berater",
+    "title_main": "Moderne",
+    "title_accent": "Engineering-Exzellenz aufbauen.",
+    "desc_p1": "Strategische Führung in",
+    "desc_p2": "Automobiltechnik",
+    "desc_p3": "und",
+    "desc_p4": "Cybersecurity",
+    "desc_p5": "Orchestrierung.",
+    "view_portfolio": "Portfolio ansehen",
+    "lets_talk": "Lass uns reden"
+  },
+  "about": {
+    "title": "Die Vision.",
+    "p1": "Mit über einem Jahrzehnt hochkarätiger F&E-Erfahrung spezialisiere ich mich darauf, komplexe technische Anforderungen in marktführende Realität umzusetzen. Ich schließe die Lücke zwischen Software auf Siliziumebene und globaler Projektorchestrierung.",
+    "cybersecurity": "Cybersicherheit",
+    "embedded_systems": "Embedded Systems",
+    "strategic_pm": "Strategisches PM",
+    "excellence_rd": "Exzellenz in F&E",
+    "high_impact": "Hochwirksame Projekte"
+  },
+  "experience": {
+    "title": "Ausgewählte Erfahrung",
+    "present": "Heute",
+    "previous": "Früher",
+    "jobs": {
+      "red": {
+        "role": "Gründer / Leitender Berater",
+        "company": "RED Projects & Management",
+        "desc": "Maßgeschneiderte F&E-Strategien und Projektmanagement für Branchenführer in Europa."
+      },
+      "imec": {
+        "role": "Strategischer F&E-Berater",
+        "company": "imec",
+        "desc": "Verwaltung kollaborativer F&E-Programme für fortschrittliche Halbleiter- und Automotive-Gate-Driving-Lösungen."
+      },
+      "signify": {
+        "role": "Senior F&E Projektleiter",
+        "company": "Signify",
+        "desc": "Leitung komplexer Produktentwicklungslebenszyklen in der intelligenten Beleuchtung und Industrieelektronik."
+      },
+      "thermo": {
+        "role": "Projektleiter III",
+        "company": "Thermo Fisher Scientific",
+        "desc": "Leitung funktionsübergreifender Engineering-Teams für wissenschaftliche Präzisionsinstrumente."
+      }
+    }
+  },
+  "certs": {
+    "title": "Zertifizierungen"
+  },
+  "contact": {
+    "title": "Lass uns vernetzen.",
+    "p1": "Expertise in F&E, Strategie und technischer Orchestrierung. Verfügbar für Beratung und Partnerschaft.",
+    "linkedin": "LinkedIn Profil",
+    "email": "E-Mail senden",
+    "location": "Niederlande / Remote"
+  }
+}

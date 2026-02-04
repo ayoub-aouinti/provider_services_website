@@ -1,8 +1,11 @@
 import { motion } from 'framer-motion';
 import { Linkedin } from 'lucide-react';
 import { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
+import LanguageSwitcher from './LanguageSwitcher';
 
 const Navbar = () => {
+  const { t } = useTranslation();
   const [scrolled, setScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
 
@@ -47,7 +50,7 @@ const Navbar = () => {
               className={activeSection === item.toLowerCase() ? 'active' : ''}
               whileHover={{ y: -2 }}
             >
-              {item}
+              {t(`nav.${item.toLowerCase()}`)}
             </motion.a>
           ))}
           <motion.a 
@@ -57,8 +60,9 @@ const Navbar = () => {
             whileTap={{ scale: 0.95 }}
           >
             <Linkedin size={18} />
-            <span>Connect</span>
+            <span>{t('nav.connect')}</span>
           </motion.a>
+          <LanguageSwitcher />
         </div>
       </div>
     </nav>

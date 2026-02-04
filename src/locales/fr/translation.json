@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "about": "À Propos",
+    "experience": "Expérience",
+    "certifications": "Certifications",
+    "contact": "Contact",
+    "connect": "Se Connecter"
+  },
+  "hero": {
+    "badge": "R&D Program Manager | Consultant",
+    "title_main": "Bâtir l'Excellence",
+    "title_accent": "Ingénierie Moderne.",
+    "desc_p1": "Leadership stratégique dans la",
+    "desc_p2": "Tech Automobile",
+    "desc_p3": "et l'orchestration de la",
+    "desc_p4": "Cybersécurité",
+    "desc_p5": ".",
+    "view_portfolio": "Voir le Portfolio",
+    "lets_talk": "Discutons"
+  },
+  "about": {
+    "title": "La Vision.",
+    "p1": "Avec plus de dix ans d'expérience en R&D à enjeux élevés, je me spécialise dans la transformation d'exigences techniques complexes en réalités leaders sur le marché. Je comble le fossé entre le logiciel au niveau du silicium et l'orchestration globale de projets.",
+    "cybersecurity": "Cybersécurité",
+    "embedded_systems": "Systèmes Embarqués",
+    "strategic_pm": "PM Stratégique",
+    "excellence_rd": "Excellence en R&D",
+    "high_impact": "Projets à Haut Impact"
+  },
+  "experience": {
+    "title": "Expériences Sélectionnées",
+    "present": "Présent",
+    "previous": "Précédent",
+    "jobs": {
+      "red": {
+        "role": "Fondateur / Consultant Principal",
+        "company": "RED Projects & Management",
+        "desc": "Fourniture de stratégies R&D sur mesure et gestion de projets pour les leaders de l'industrie en Europe."
+      },
+      "imec": {
+        "role": "Consultant Stratégique R&D",
+        "company": "imec",
+        "desc": "Gestion de programmes R&D collaboratifs dans les solutions avancées de semi-conducteurs et de pilotage automobile."
+      },
+      "signify": {
+        "role": "Senior R&D Project Manager",
+        "company": "Signify",
+        "desc": "Direction de cycles de vie complexes de développement de produits dans l'éclairage intelligent et l'électronique industrielle."
+      },
+      "thermo": {
+        "role": "Project Manager III",
+        "company": "Thermo Fisher Scientific",
+        "desc": "Direction d'équipes d'ingénierie transversales pour l'instrumentation scientifique de précision."
+      }
+    }
+  },
+  "certs": {
+    "title": "Certifications"
+  },
+  "contact": {
+    "title": "Connectons-nous.",
+    "p1": "Expertise en R&D, Stratégie et Orchestration Technique. Disponible pour consulting et partenariat.",
+    "linkedin": "Profil LinkedIn",
+    "email": "Envoyer un Email",
+    "location": "Pays-Bas / Remote"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "certifications": "Certifications",
+    "contact": "Contact",
+    "connect": "Connect"
+  },
+  "hero": {
+    "badge": "R&D Program Manager | Consultant",
+    "title_main": "Building Modern",
+    "title_accent": "Engineering Excellence.",
+    "desc_p1": "Strategic leadership in",
+    "desc_p2": "Automotive Tech",
+    "desc_p3": "and",
+    "desc_p4": "Cybersecurity",
+    "desc_p5": "orchestration.",
+    "view_portfolio": "View Portfolio",
+    "lets_talk": "Let's Talk"
+  },
+  "about": {
+    "title": "The Vision.",
+    "p1": "With over a decade of high-stakes R&D experience, I specialize in transforming complex technical requirements into market-leading reality. I bridge the gap between silicon-level software and global project orchestration.",
+    "cybersecurity": "Cybersecurity",
+    "embedded_systems": "Embedded Systems",
+    "strategic_pm": "Strategic PM",
+    "excellence_rd": "Excellence in R&D",
+    "high_impact": "High-Impact Projects"
+  },
+  "experience": {
+    "title": "Selected Experience",
+    "present": "Present",
+    "previous": "Previous",
+    "jobs": {
+      "red": {
+        "role": "Founder / Lead Consultant",
+        "company": "RED Projects & Management",
+        "desc": "Delivering bespoke R&D strategies and project management for industry leaders across Europe."
+      },
+      "imec": {
+        "role": "Strategic R&D Consultant",
+        "company": "imec",
+        "desc": "Managing collaborative R&D programs in advanced semiconductor and automotive gate-driving solutions."
+      },
+      "signify": {
+        "role": "Senior R&D Project Manager",
+        "company": "Signify",
+        "desc": "Directed complex product development lifecycles in smart lighting and industrial electronics."
+      },
+      "thermo": {
+        "role": "Project Manager III",
+        "company": "Thermo Fisher Scientific",
+        "desc": "Led cross-functional engineering teams for precision scientific instrumentation."
+      }
+    }
+  },
+  "certs": {
+    "title": "Certifications"
+  },
+  "contact": {
+    "title": "Let's Connect.",
+    "p1": "Expertise in R&D, Strategy, and Technical Orchestration. Available for consulting and partnership.",
+    "linkedin": "LinkedIn Profile",
+    "email": "Send Email",
+    "location": "Netherlands / Remote"
+  }
+}

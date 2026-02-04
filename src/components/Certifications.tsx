@@ -1,7 +1,10 @@
 import { motion } from 'framer-motion';
 import { Award } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const Certifications = () => {
+  const { t } = useTranslation();
+
   const certs = [
     { name: "PMP®", full: "Project Management Professional" },
     { name: "PSM I", full: "Professional Scrum Master" },
@@ -12,7 +15,7 @@ const Certifications = () => {
 
   return (
     <section id="certifications" className="container">
-      <h2 className="section-title">Certifications</h2>
+      <h2 className="section-title">{t('certs.title')}</h2>
       <div className="certs-grid">
         {certs.map((cert, i) => (
           <motion.div 

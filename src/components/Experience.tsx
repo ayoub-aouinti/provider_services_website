@@ -1,35 +1,38 @@
 import { motion } from 'framer-motion';
 import { MapPin } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const Experience = () => {
+  const { t } = useTranslation();
+
   const jobs = [
     {
-      company: "RED Projects & Management",
-      role: "Founder / Lead Consultant",
-      period: "2025 - Present",
+      company: t('experience.jobs.red.company'),
+      role: t('experience.jobs.red.role'),
+      period: `2025 - ${t('experience.present')}`,
       location: "Netherlands",
-      desc: "Delivering bespoke R&D strategies and project management for industry leaders across Europe."
+      desc: t('experience.jobs.red.desc')
     },
     {
-      company: "imec",
-      role: "Strategic R&D Consultant",
-      period: "2025 - Present",
+      company: t('experience.jobs.imec.company'),
+      role: t('experience.jobs.imec.role'),
+      period: `2025 - ${t('experience.present')}`,
       location: "Belgium",
-      desc: "Managing collaborative R&D programs in advanced semiconductor and automotive gate-driving solutions."
+      desc: t('experience.jobs.imec.desc')
     },
     {
-      company: "Signify",
-      role: "Senior R&D Project Manager",
-      period: "Previous",
+      company: t('experience.jobs.signify.company'),
+      role: t('experience.jobs.signify.role'),
+      period: t('experience.previous'),
       location: "Netherlands",
-      desc: "Directed complex product development lifecycles in smart lighting and industrial electronics."
+      desc: t('experience.jobs.signify.desc')
     },
     {
-      company: "Thermo Fisher Scientific",
-      role: "Project Manager III",
-      period: "Previous",
+      company: t('experience.jobs.thermo.company'),
+      role: t('experience.jobs.thermo.role'),
+      period: t('experience.previous'),
       location: "Netherlands",
-      desc: "Led cross-functional engineering teams for precision scientific instrumentation."
+      desc: t('experience.jobs.thermo.desc')
     }
   ];
 
@@ -40,7 +43,7 @@ const Experience = () => {
         whileInView={{ opacity: 1 }} 
         className="section-title"
       >
-        Selected Experience
+        {t('experience.title')}
       </motion.h2>
       <div className="timeline-grid">
         {jobs.map((job, i) => (
