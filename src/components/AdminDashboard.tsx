@@ -3,12 +3,9 @@ import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import { 
   LogOut, 
-  Edit3, 
   Palette, 
-  Save, 
   Home,
-  FileText,
-  Settings
+  FileText
 } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 import ContentEditor from './ContentEditor';

@@ -1,7 +1,6 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Save, Globe, RefreshCw, Check } from 'lucide-react';
-import { useTranslation } from 'react-i18next';
 import i18n from '../i18n';
 import enTranslations from '../locales/en/translation.json';
 import frTranslations from '../locales/fr/translation.json';
@@ -14,7 +13,6 @@ interface TranslationData {
 }
 
 const ContentEditor = () => {
-  const { t } = useTranslation();
   const [selectedLanguage, setSelectedLanguage] = useState('en');
   const [translations, setTranslations] = useState<TranslationData>({});
   const [isSaving, setIsSaving] = useState(false);
@@ -86,8 +84,8 @@ const ContentEditor = () => {
     }, 500);
   };
 
-  const renderEditor = (obj: any, path: string[] = []): JSX.Element[] => {
-    const elements: JSX.Element[] = [];
+  const renderEditor = (obj: any, path: string[] = []): React.ReactElement[] => {
+    const elements: React.ReactElement[] = [];
     
     Object.keys(obj).forEach((key) => {
       const currentPath = [...path, key];
