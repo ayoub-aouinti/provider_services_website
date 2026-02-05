@@ -14,6 +14,22 @@ const applyDirection = (lng: string) => {
   document.body.dir = dir; // Apply to body as well for extra safety
 };
 
+// Load custom translations from localStorage if available
+const loadCustomTranslations = () => {
+  const languages = ['en', 'fr', 'de', 'ar'];
+  languages.forEach((lang) => {
+    const saved = localStorage.getItem(`translations_${lang}`);
+    if (saved) {
+      try {
+        const customTranslations = JSON.parse(saved);
+        i18n.addResourceBundle(lang, 'translation', customTranslations, true, true);
+      } catch (error) {
+        console.error(`Error loading custom translations for ${lang}:`, error);
+      }
+    }
+  });
+};
+
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
@@ -33,7 +49,10 @@ i18n
       caches: ['localStorage'],
     },
   }, (err) => {
-    if (!err) applyDirection(i18n.language);
+    if (!err) {
+      loadCustomTranslations();
+      applyDirection(i18n.language);
+    }
   });
 
 // Handle RTL

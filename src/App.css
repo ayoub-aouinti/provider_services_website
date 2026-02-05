@@ -126,6 +126,26 @@
   transform: scale(1.05);
 }
 
+.nav-admin {
+  background: rgba(129, 140, 248, 0.15);
+  color: var(--accent-primary) !important;
+  padding: 0.6rem 1.2rem;
+  border-radius: 100px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  border: 1px solid rgba(129, 140, 248, 0.3);
+}
+
+.nav-admin:hover {
+  background: rgba(129, 140, 248, 0.25);
+  transform: scale(1.05);
+  border-color: var(--accent-primary);
+}
+
 /* Language Switcher */
 .language-switcher-container {
   position: relative;

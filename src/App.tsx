@@ -1,3 +1,4 @@
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { motion, useScroll, useSpring } from 'framer-motion';
 
 // Components
@@ -9,10 +10,15 @@ import Certifications from './components/Certifications';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Background from './components/Background';
+import Login from './components/Login';
+import AdminDashboard from './components/AdminDashboard';
+import ProtectedRoute from './components/ProtectedRoute';
+import { useStyleSettings } from './hooks/useStyleSettings';
 
 import './App.css';
 
-export default function App() {
+const HomePage = () => {
+  useStyleSettings(); // Load saved style settings
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
@@ -34,5 +40,25 @@ export default function App() {
       </main>
       <Footer />
     </div>
+  );
+};
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/login" element={<Login />} />
+        <Route
+          path="/admin"
+          element={
+            <ProtectedRoute>
+              <AdminDashboard />
+            </ProtectedRoute>
+          }
+        />
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
+    </BrowserRouter>
   );
 }

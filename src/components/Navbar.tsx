@@ -1,11 +1,14 @@
 import { motion } from 'framer-motion';
-import { Linkedin } from 'lucide-react';
+import { Linkedin, Settings } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
+import { useAuth } from '../contexts/AuthContext';
 import LanguageSwitcher from './LanguageSwitcher';
 
 const Navbar = () => {
   const { t } = useTranslation();
+  const { isAuthenticated } = useAuth();
   const [scrolled, setScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
 
@@ -62,6 +65,17 @@ const Navbar = () => {
             <Linkedin size={18} />
             <span>{t('nav.connect')}</span>
           </motion.a>
+          {isAuthenticated && (
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+            >
+              <Link to="/admin" className="nav-admin">
+                <Settings size={18} />
+                <span>Admin</span>
+              </Link>
+            </motion.div>
+          )}
           <LanguageSwitcher />
         </div>
       </div>
