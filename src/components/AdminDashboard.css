@@ -1,7 +1,7 @@
 .admin-dashboard {
   min-height: 100vh;
   display: flex;
-  background: var(--bg-dark);
+  background: var(--bg-primary);
   color: var(--text-primary);
 }
 

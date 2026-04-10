@@ -44,7 +44,7 @@ const Navbar = () => {
           className="logo"
         >
           <a href="#home">
-            <img src="/images/red-logo.png" alt="RED Logo" className="logo-img" />
+            <img src="/images/red-logo-v2.jpg" alt="RED Logo" className="logo-img" />
             <span>RED</span> Projects
           </a>
         </motion.div>

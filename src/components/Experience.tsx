@@ -63,7 +63,6 @@ const Experience = () => {
             className="experience-card glass"
           >
             <div className="card-top">
-              <span className="period">{service.period}</span>
               <span className="service-icon">{service.icon}</span>
             </div>
             <h3>{service.title}</h3>

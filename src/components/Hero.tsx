@@ -25,8 +25,7 @@ const Hero = () => {
 
   return (
     <section id="home" className="hero">
-      <div className="hero-bg-image" style={{ backgroundImage: 'url(/images/red-cover.jpg)' }}></div>
-      <div className="container">
+      <div className="container hero-grid">
         <motion.div 
           key={i18n.language}
           variants={staggerContainer}
@@ -50,6 +49,15 @@ const Hero = () => {
               {t('hero.lets_talk')} <ExternalLink size={16} />
             </a>
           </motion.div>
+        </motion.div>
+        
+        <motion.div 
+          initial={{ opacity: 0, x: 50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1, delay: 0.4 }}
+          className="hero-image-wrapper"
+        >
+          <img src="/images/red-cover.jpg" alt="RED Projects Cover" />
         </motion.div>
       </div>
       <motion.div 

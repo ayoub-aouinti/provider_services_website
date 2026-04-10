@@ -63,7 +63,7 @@ const About = () => {
               <motion.div 
                 key={i}
                 whileHover={{ y: -8 }}
-                className="stat-card glass-glow"
+                className="glass stat-card"
               >
                 <Counter value={stat.value} />
                 <p>{stat.label}</p>

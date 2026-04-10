@@ -23,7 +23,7 @@ const Certifications = () => {
             whileHover={{ scale: 1.05 }}
             className="cert-card glass"
           >
-            <div className="cert-icon glass"><Award size={24} /></div>
+            <div className="cert-icon"><Award size={24} /></div>
             <div className="cert-info">
               <h3>{cert.name}</h3>
               <p>{cert.full}</p>
