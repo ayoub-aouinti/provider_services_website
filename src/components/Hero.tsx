@@ -25,6 +25,7 @@ const Hero = () => {
 
   return (
     <section id="home" className="hero">
+      <div className="hero-bg-image" style={{ backgroundImage: 'url(/images/red-cover.jpg)' }}></div>
       <div className="container">
         <motion.div 
           key={i18n.language}

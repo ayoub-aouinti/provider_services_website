@@ -5,18 +5,16 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import en from './locales/en/translation.json';
 import fr from './locales/fr/translation.json';
 import de from './locales/de/translation.json';
-import ar from './locales/ar/translation.json';
 
 const applyDirection = (lng: string) => {
-  const dir = lng === 'ar' ? 'rtl' : 'ltr';
-  document.documentElement.dir = dir;
+  document.documentElement.dir = 'ltr';
   document.documentElement.lang = lng;
-  document.body.dir = dir; // Apply to body as well for extra safety
+  document.body.dir = 'ltr';
 };
 
 // Load custom translations from localStorage if available
 const loadCustomTranslations = () => {
-  const languages = ['en', 'fr', 'de', 'ar'];
+  const languages = ['en', 'fr', 'de'];
   languages.forEach((lang) => {
     const saved = localStorage.getItem(`translations_${lang}`);
     if (saved) {
@@ -38,7 +36,6 @@ i18n
       en: { translation: en },
       fr: { translation: fr },
       de: { translation: de },
-      ar: { translation: ar },
     },
     fallbackLng: 'en',
     interpolation: {
@@ -55,7 +52,10 @@ i18n
     }
   });
 
-// Handle RTL
-i18n.on('languageChanged', applyDirection);
+// Handle RTL (not needed anymore but keeping simple dir application)
+i18n.on('languageChanged', (lng) => {
+  applyDirection(lng);
+});
 
 export default i18n;
+

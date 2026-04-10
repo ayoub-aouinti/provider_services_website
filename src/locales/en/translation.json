@@ -1,56 +1,61 @@
 {
   "nav": {
-    "about": "About",
-    "experience": "Experience",
+    "about": "Vision",
+    "experience": "Services",
     "certifications": "Certifications",
     "contact": "Contact",
     "connect": "Connect"
   },
   "hero": {
-    "badge": "R&D Program Manager | Consultant",
-    "title_main": "Building Modern",
-    "title_accent": "Engineering Excellence.",
-    "desc_p1": "Strategic leadership in",
-    "desc_p2": "Automotive Tech",
+    "badge": "Research • Engineering • Development",
+    "title_main": "Turning complexity into",
+    "title_accent": "Scalable Solutions.",
+    "desc_p1": "RED Projects & Management specializes in",
+    "desc_p2": "Software",
     "desc_p3": "and",
-    "desc_p4": "Cybersecurity",
-    "desc_p5": "orchestration.",
-    "view_portfolio": "View Portfolio",
+    "desc_p4": "Systems",
+    "desc_p5": "consulting for technology leaders.",
+    "view_portfolio": "Our Services",
     "lets_talk": "Let's Talk"
   },
   "about": {
     "title": "The Vision.",
-    "p1": "With over a decade of high-stakes R&D experience, I specialize in transforming complex technical requirements into market-leading reality. I bridge the gap between silicon-level software and global project orchestration.",
-    "cybersecurity": "Cybersecurity",
-    "embedded_systems": "Embedded Systems",
-    "strategic_pm": "Strategic PM",
-    "excellence_rd": "Excellence in R&D",
-    "high_impact": "High-Impact Projects"
+    "p1": "RED Projects & Management is a consulting company specialized in Research, Engineering, and Development. We partner with technology companies to turn their most complex Software, Firmware, and systems challenges into market-leading reality.",
+    "cybersecurity": "Software & Firmware",
+    "embedded_systems": "Systems Architecture",
+    "strategic_pm": "R&D Strategy",
+    "excellence_rd": "Years of R&D",
+    "high_impact": "Successful Projects"
   },
   "experience": {
-    "title": "Selected Experience",
+    "title": "Main Services",
     "present": "Present",
     "previous": "Previous",
     "jobs": {
-      "red": {
-        "role": "Founder / Lead Consultant",
-        "company": "RED Projects & Management",
-        "desc": "Delivering bespoke R&D strategies and project management for industry leaders across Europe."
+      "rd_pm": {
+        "role": "R&D Project Management",
+        "company": "Software & System Lifecycle",
+        "desc": "Full Software & System Development Life Cycle from Business case and requirement elicitation to product validation and customer delivery."
       },
-      "imec": {
-        "role": "Strategic R&D Consultant",
-        "company": "imec",
-        "desc": "Managing collaborative R&D programs in advanced semiconductor and automotive gate-driving solutions."
+      "qa": {
+        "role": "Quality Assurance",
+        "company": "Test Strategy & Metrics",
+        "desc": "Test strategy from Initiation to full implementation on products and teams levels. Lead sustaining & Change Control board about customer issues and reports. Deploy Software KPI's and quality metrics."
       },
-      "signify": {
-        "role": "Senior R&D Project Manager",
-        "company": "Signify",
-        "desc": "Directed complex product development lifecycles in smart lighting and industrial electronics."
+      "nearshoring_dev": {
+        "role": "Nearshoring of Software Dev",
+        "company": "Process & Risk Management",
+        "desc": "Establish and sustain the release process, streamline teams work (Dev, QA, Ops), manage risks, manage stakeholder expectations and engage with customers."
       },
-      "thermo": {
-        "role": "Project Manager III",
-        "company": "Thermo Fisher Scientific",
-        "desc": "Led cross-functional engineering teams for precision scientific instrumentation."
+      "nearshoring_support": {
+        "role": "Nearshoring of Product Support",
+        "company": "Tunisia Hub",
+        "desc": "Cost savings, real-time collaboration, and access to skilled talents in Tunisia. We simplify compliance, ease of integration with internal teams, and strengthen operational resilience."
+      },
+      "innovation": {
+        "role": "Innovation Management",
+        "company": "IP & Patenting",
+        "desc": "We Introduce and engage with teams about IP and Patenting, trigger Awareness, Animate workshops, and Follow-up submissions with counsels then with local and European authorities."
       }
     }
   },
@@ -59,9 +64,10 @@
   },
   "contact": {
     "title": "Let's Connect.",
-    "p1": "Expertise in R&D, Strategy, and Technical Orchestration. Available for consulting and partnership.",
-    "linkedin": "LinkedIn Profile",
+    "p1": "Expertise in R&D, Strategy, and Technical Orchestration. Partner with us to scale your technology.",
+    "linkedin": "Company LinkedIn",
     "email": "Send Email",
     "location": "Netherlands / Remote"
   }
 }
+

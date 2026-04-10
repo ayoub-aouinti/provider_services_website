@@ -1,56 +1,61 @@
 {
   "nav": {
-    "about": "Über mich",
-    "experience": "Erfahrung",
+    "about": "Vision",
+    "experience": "Leistungen",
     "certifications": "Zertifizierungen",
     "contact": "Kontakt",
     "connect": "Verbinden"
   },
   "hero": {
-    "badge": "F&E-Programmmanager | Berater",
-    "title_main": "Moderne",
-    "title_accent": "Engineering-Exzellenz aufbauen.",
-    "desc_p1": "Strategische Führung in",
-    "desc_p2": "Automobiltechnik",
+    "badge": "Forschung • Engineering • Entwicklung",
+    "title_main": "Komplexität in",
+    "title_accent": "skalierbare Lösungen verwandeln.",
+    "desc_p1": "RED Projects & Management ist spezialisiert auf Beratung in den Bereichen",
+    "desc_p2": "Software",
     "desc_p3": "und",
-    "desc_p4": "Cybersecurity",
-    "desc_p5": "Orchestrierung.",
-    "view_portfolio": "Portfolio ansehen",
+    "desc_p4": "Systeme",
+    "desc_p5": "für Technologieführer.",
+    "view_portfolio": "Unsere Leistungen",
     "lets_talk": "Lass uns reden"
   },
   "about": {
     "title": "Die Vision.",
-    "p1": "Mit über einem Jahrzehnt hochkarätiger F&E-Erfahrung spezialisiere ich mich darauf, komplexe technische Anforderungen in marktführende Realität umzusetzen. Ich schließe die Lücke zwischen Software auf Siliziumebene und globaler Projektorchestrierung.",
-    "cybersecurity": "Cybersicherheit",
-    "embedded_systems": "Embedded Systems",
-    "strategic_pm": "Strategisches PM",
-    "excellence_rd": "Exzellenz in F&E",
-    "high_impact": "Hochwirksame Projekte"
+    "p1": "RED Projects & Management ist ein Beratungsunternehmen, spezialisiert auf Forschung, Engineering und Entwicklung. Wir unterstützen Technologieunternehmen dabei, ihre komplexesten Herausforderungen in den Bereichen Software, Firmware und Systeme in marktführende Realität umzusetzen.",
+    "cybersecurity": "Software & Firmware",
+    "embedded_systems": "Systemarchitektur",
+    "strategic_pm": "F&E-Strategie",
+    "excellence_rd": "Jahre F&E-Erfahrung",
+    "high_impact": "Erfolgreiche Projekte"
   },
   "experience": {
-    "title": "Ausgewählte Erfahrung",
+    "title": "Hauptleistungen",
     "present": "Heute",
     "previous": "Früher",
     "jobs": {
-      "red": {
-        "role": "Gründer / Leitender Berater",
-        "company": "RED Projects & Management",
-        "desc": "Maßgeschneiderte F&E-Strategien und Projektmanagement für Branchenführer in Europa."
+      "rd_pm": {
+        "role": "F&E-Projektmanagement",
+        "company": "Software- & Systemlebenszyklus",
+        "desc": "Vollständiger Lebenszyklus der Software- und Systementwicklung vom Business Case und der Anforderungsermittlung bis hin zur Produktvalidierung und Kundenauslieferung."
       },
-      "imec": {
-        "role": "Strategischer F&E-Berater",
-        "company": "imec",
-        "desc": "Verwaltung kollaborativer F&E-Programme für fortschrittliche Halbleiter- und Automotive-Gate-Driving-Lösungen."
+      "qa": {
+        "role": "Qualitätssicherung",
+        "company": "Teststrategie & Metriken",
+        "desc": "Teststrategie von der Initiierung bis zur vollständigen Implementierung auf Produkt- und Teamebene. Leitung des Change Control Boards für Kundenberichte. Einsatz von Software-KPIs."
       },
-      "signify": {
-        "role": "Senior F&E Projektleiter",
-        "company": "Signify",
-        "desc": "Leitung komplexer Produktentwicklungslebenszyklen in der intelligenten Beleuchtung und Industrieelektronik."
+      "nearshoring_dev": {
+        "role": "Nearshoring der Entwicklung",
+        "company": "Prozess- & Risikomanagement",
+        "desc": "Aufbau und Aufrechterhaltung des Release-Prozesses, Optimierung der Teamarbeit (Dev, QA, Ops), Risikomanagement und Erwartungsmanagement der Stakeholder."
       },
-      "thermo": {
-        "role": "Projektleiter III",
-        "company": "Thermo Fisher Scientific",
-        "desc": "Leitung funktionsübergreifender Engineering-Teams für wissenschaftliche Präzisionsinstrumente."
+      "nearshoring_support": {
+        "role": "Nearshoring von Produktsupport",
+        "company": "Hub Tunesien",
+        "desc": "Kosteneinsparungen, Echtzeit-Zusammenarbeit und Zugang zu qualifizierten Talenten in Tunesien. Wir vereinfachen die Compliance und stärken die operative Resilienz."
+      },
+      "innovation": {
+        "role": "Innovationsmanagement",
+        "company": "IP & Patentwesen",
+        "desc": "Einführung und Einbindung von Teams in IP- und Patentthemen, Förderung des Bewusstseins, Durchführung von Workshops und Begleitung von Einreichungen bei Behörden."
       }
     }
   },
@@ -59,9 +64,10 @@
   },
   "contact": {
     "title": "Lass uns vernetzen.",
-    "p1": "Expertise in F&E, Strategie und technischer Orchestrierung. Verfügbar für Beratung und Partnerschaft.",
-    "linkedin": "LinkedIn Profil",
+    "p1": "Expertise in F&E, Strategie und technischer Orchestrierung. Ihr Partner für die Skalierung Ihrer Technologie.",
+    "linkedin": "Unternehmens-LinkedIn",
     "email": "E-Mail senden",
     "location": "Niederlande / Remote"
   }
 }
+

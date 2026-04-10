@@ -1,38 +1,45 @@
 import { motion } from 'framer-motion';
-import { MapPin } from 'lucide-react';
+import { Briefcase, ShieldCheck, Globe, Users, Lightbulb } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const Experience = () => {
   const { t } = useTranslation();
 
-  const jobs = [
+  const services = [
     {
-      company: t('experience.jobs.red.company'),
-      role: t('experience.jobs.red.role'),
-      period: `2025 - ${t('experience.present')}`,
-      location: "Netherlands",
-      desc: t('experience.jobs.red.desc')
+      title: t('experience.jobs.rd_pm.role'),
+      subtitle: t('experience.jobs.rd_pm.company'),
+      desc: t('experience.jobs.rd_pm.desc'),
+      icon: <Briefcase size={24} />,
+      period: "End-to-End"
     },
     {
-      company: t('experience.jobs.imec.company'),
-      role: t('experience.jobs.imec.role'),
-      period: `2025 - ${t('experience.present')}`,
-      location: "Belgium",
-      desc: t('experience.jobs.imec.desc')
+      title: t('experience.jobs.qa.role'),
+      subtitle: t('experience.jobs.qa.company'),
+      desc: t('experience.jobs.qa.desc'),
+      icon: <ShieldCheck size={24} />,
+      period: "Continuous"
     },
     {
-      company: t('experience.jobs.signify.company'),
-      role: t('experience.jobs.signify.role'),
-      period: t('experience.previous'),
-      location: "Netherlands",
-      desc: t('experience.jobs.signify.desc')
+      title: t('experience.jobs.nearshoring_dev.role'),
+      subtitle: t('experience.jobs.nearshoring_dev.company'),
+      desc: t('experience.jobs.nearshoring_dev.desc'),
+      icon: <Globe size={24} />,
+      period: "Scalable"
     },
     {
-      company: t('experience.jobs.thermo.company'),
-      role: t('experience.jobs.thermo.role'),
-      period: t('experience.previous'),
-      location: "Netherlands",
-      desc: t('experience.jobs.thermo.desc')
+      title: t('experience.jobs.nearshoring_support.role'),
+      subtitle: t('experience.jobs.nearshoring_support.company'),
+      desc: t('experience.jobs.nearshoring_support.desc'),
+      icon: <Users size={24} />,
+      period: "Tunisia Hub"
+    },
+    {
+      title: t('experience.jobs.innovation.role'),
+      subtitle: t('experience.jobs.innovation.company'),
+      desc: t('experience.jobs.innovation.desc'),
+      icon: <Lightbulb size={24} />,
+      period: "Strategic"
     }
   ];
 
@@ -46,7 +53,7 @@ const Experience = () => {
         {t('experience.title')}
       </motion.h2>
       <div className="timeline-grid">
-        {jobs.map((job, i) => (
+        {services.map((service, i) => (
           <motion.div 
             key={i}
             initial={{ opacity: 0, y: 30 }}
@@ -56,12 +63,12 @@ const Experience = () => {
             className="experience-card glass"
           >
             <div className="card-top">
-              <span className="period">{job.period}</span>
-              <span className="location"><MapPin size={14} /> {job.location}</span>
+              <span className="period">{service.period}</span>
+              <span className="service-icon">{service.icon}</span>
             </div>
-            <h3>{job.role}</h3>
-            <h4>{job.company}</h4>
-            <p>{job.desc}</p>
+            <h3>{service.title}</h3>
+            <h4>{service.subtitle}</h4>
+            <p>{service.desc}</p>
           </motion.div>
         ))}
       </div>

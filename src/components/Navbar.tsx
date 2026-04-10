@@ -43,7 +43,10 @@ const Navbar = () => {
           animate={{ opacity: 1, x: 0 }}
           className="logo"
         >
-          <a href="#home"><span>S</span>lim Bahri</a>
+          <a href="#home">
+            <img src="/images/red-logo.png" alt="RED Logo" className="logo-img" />
+            <span>RED</span> Projects
+          </a>
         </motion.div>
         <div className="nav-links">
           {['About', 'Experience', 'Certifications', 'Contact'].map((item) => (
@@ -57,7 +60,7 @@ const Navbar = () => {
             </motion.a>
           ))}
           <motion.a 
-            href="https://www.linkedin.com/in/slimbahri/" 
+            href="https://www.linkedin.com/company/red-projects-management/" 
             className="nav-cta"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}

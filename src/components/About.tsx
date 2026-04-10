@@ -1,5 +1,5 @@
 import { motion, useMotionValue, useTransform, animate, useInView } from 'framer-motion';
-import { Shield, Cpu, Target } from 'lucide-react';
+import { Target, Code, Layers } from 'lucide-react';
 import { useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 
@@ -50,15 +50,15 @@ const About = () => {
             <h2 className="section-title text-left">{t('about.title')}</h2>
             <p>{t('about.p1')}</p>
             <div className="expertise-tags">
-              <div className="tag"><Shield size={16}/> {t('about.cybersecurity')}</div>
-              <div className="tag"><Cpu size={16}/> {t('about.embedded_systems')}</div>
+              <div className="tag"><Code size={16}/> {t('about.cybersecurity')}</div>
+              <div className="tag"><Layers size={16}/> {t('about.embedded_systems')}</div>
               <div className="tag"><Target size={16}/> {t('about.strategic_pm')}</div>
             </div>
           </div>
           <div className="about-stats">
             {[
-              { label: t('about.excellence_rd'), value: '10+' },
-              { label: t('about.high_impact'), value: '25+' }
+              { label: t('about.excellence_rd'), value: '15+' },
+              { label: t('about.high_impact'), value: '50+' }
             ].map((stat, i) => (
               <motion.div 
                 key={i}

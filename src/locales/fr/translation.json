@@ -1,56 +1,61 @@
 {
   "nav": {
-    "about": "À Propos",
-    "experience": "Expérience",
+    "about": "Vision",
+    "experience": "Services",
     "certifications": "Certifications",
     "contact": "Contact",
     "connect": "Se Connecter"
   },
   "hero": {
-    "badge": "R&D Program Manager | Consultant",
-    "title_main": "Bâtir l'Excellence",
-    "title_accent": "Ingénierie Moderne.",
-    "desc_p1": "Leadership stratégique dans la",
-    "desc_p2": "Tech Automobile",
-    "desc_p3": "et l'orchestration de la",
-    "desc_p4": "Cybersécurité",
-    "desc_p5": ".",
-    "view_portfolio": "Voir le Portfolio",
+    "badge": "Recherche • Ingénierie • Développement",
+    "title_main": "Transformer la complexité en",
+    "title_accent": "Solutions Évolutives.",
+    "desc_p1": "RED Projects & Management est spécialisé dans le conseil en",
+    "desc_p2": "Logiciels",
+    "desc_p3": "et",
+    "desc_p4": "Systèmes",
+    "desc_p5": "pour les leaders technologiques.",
+    "view_portfolio": "Nos Services",
     "lets_talk": "Discutons"
   },
   "about": {
     "title": "La Vision.",
-    "p1": "Avec plus de dix ans d'expérience en R&D à enjeux élevés, je me spécialise dans la transformation d'exigences techniques complexes en réalités leaders sur le marché. Je comble le fossé entre le logiciel au niveau du silicium et l'orchestration globale de projets.",
-    "cybersecurity": "Cybersécurité",
-    "embedded_systems": "Systèmes Embarqués",
-    "strategic_pm": "PM Stratégique",
-    "excellence_rd": "Excellence en R&D",
-    "high_impact": "Projets à Haut Impact"
+    "p1": "RED Projects & Management est une société de conseil spécialisée en Recherche, Ingénierie et Développement. Nous sommes partenaires des entreprises technologiques pour transformer leurs défis logiciels, matériels et systèmes les plus complexes en réalités leaders sur le marché.",
+    "cybersecurity": "Logiciels & Firmware",
+    "embedded_systems": "Architecture Systèmes",
+    "strategic_pm": "Stratégie R&D",
+    "excellence_rd": "Années de R&D",
+    "high_impact": "Projets Réussis"
   },
   "experience": {
-    "title": "Expériences Sélectionnées",
+    "title": "Services Principaux",
     "present": "Présent",
     "previous": "Précédent",
     "jobs": {
-      "red": {
-        "role": "Fondateur / Consultant Principal",
-        "company": "RED Projects & Management",
-        "desc": "Fourniture de stratégies R&D sur mesure et gestion de projets pour les leaders de l'industrie en Europe."
+      "rd_pm": {
+        "role": "Gestion de Projet R&D",
+        "company": "Cycle de vie Logiciel & Système",
+        "desc": "Cycle de vie complet du développement logiciel et système, de l'étude de cas et l'élicitation des besoins à la validation du produit et à la livraison client."
       },
-      "imec": {
-        "role": "Consultant Stratégique R&D",
-        "company": "imec",
-        "desc": "Gestion de programmes R&D collaboratifs dans les solutions avancées de semi-conducteurs et de pilotage automobile."
+      "qa": {
+        "role": "Assurance Qualité",
+        "company": "Stratégie de Test & Métriques",
+        "desc": "Stratégie de test de l'initiation à la mise en œuvre complète au niveau des produits et des équipes. Direction du comité de contrôle des changements concernant les problèmes clients. Déploiement des KPI et métriques qualité."
       },
-      "signify": {
-        "role": "Senior R&D Project Manager",
-        "company": "Signify",
-        "desc": "Direction de cycles de vie complexes de développement de produits dans l'éclairage intelligent et l'électronique industrielle."
+      "nearshoring_dev": {
+        "role": "Nearshoring de Développement",
+        "company": "Gestion de Processus & Risques",
+        "desc": "Établir et pérenniser le processus de release, rationaliser le travail des équipes (Dev, QA, Ops), gérer les risques et les attentes des parties prenantes."
       },
-      "thermo": {
-        "role": "Project Manager III",
-        "company": "Thermo Fisher Scientific",
-        "desc": "Direction d'équipes d'ingénierie transversales pour l'instrumentation scientifique de précision."
+      "nearshoring_support": {
+        "role": "Nearshoring de Support Produit",
+        "company": "Hub Tunisie",
+        "desc": "Économies de coûts, collaboration en temps réel et accès à des talents qualifiés en Tunisie. Nous simplifions la conformité et renforçons la résilience opérationnelle."
+      },
+      "innovation": {
+        "role": "Management de l'Innovation",
+        "company": "PI & Brevets",
+        "desc": "Introduction et engagement des équipes sur la Propriété Intellectuelle et les brevets, sensibilisation, animation d'ateliers et suivi des soumissions auprès des autorités."
       }
     }
   },
@@ -59,9 +64,10 @@
   },
   "contact": {
     "title": "Connectons-nous.",
-    "p1": "Expertise en R&D, Stratégie et Orchestration Technique. Disponible pour consulting et partenariat.",
-    "linkedin": "Profil LinkedIn",
+    "p1": "Expertise en R&D, Stratégie et Orchestration Technique. Partenaire pour faire évoluer votre technologie.",
+    "linkedin": "LinkedIn Entreprise",
     "email": "Envoyer un Email",
     "location": "Pays-Bas / Remote"
   }
 }
+

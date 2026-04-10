@@ -5,7 +5,6 @@ import i18n from '../i18n';
 import enTranslations from '../locales/en/translation.json';
 import frTranslations from '../locales/fr/translation.json';
 import deTranslations from '../locales/de/translation.json';
-import arTranslations from '../locales/ar/translation.json';
 import './ContentEditor.css';
 
 interface TranslationData {
@@ -21,8 +20,7 @@ const ContentEditor = () => {
   const languages = [
     { code: 'en', label: 'English' },
     { code: 'fr', label: 'Français' },
-    { code: 'de', label: 'Deutsch' },
-    { code: 'ar', label: 'العربية' }
+    { code: 'de', label: 'Deutsch' }
   ];
 
   useEffect(() => {
@@ -46,7 +44,6 @@ const ContentEditor = () => {
       en: enTranslations,
       fr: frTranslations,
       de: deTranslations,
-      ar: arTranslations,
     };
 
     setTranslations(defaultTranslations[selectedLanguage as keyof typeof defaultTranslations] || enTranslations);

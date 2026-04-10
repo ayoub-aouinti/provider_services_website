@@ -16,8 +16,11 @@ const Contact = () => {
           <h2 className="section-title text-left">{t('contact.title')}</h2>
           <p>{t('contact.p1')}</p>
           <div className="contact-btns">
-            <a href="https://www.linkedin.com/in/slimbahri/" className="btn-primary">
+            <a href="https://www.linkedin.com/company/red-projects-management/" className="btn-primary">
               <Linkedin size={20} /> {t('contact.linkedin')}
+            </a>
+            <a href="https://www.linkedin.com/in/slimbahri/" className="btn-outline">
+              <Linkedin size={20} /> Provider Slim
             </a>
             <a href="mailto:contact@redprojects.nl" className="btn-outline">
               <Mail size={20} /> {t('contact.email')}
